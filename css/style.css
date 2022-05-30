@@ -8,6 +8,10 @@ h1{
     padding-top: 120px;
 }
 
+p{
+    color: white;
+}
+
 a{
     color: rgba(246, 191, 0, 1) ;
 }
@@ -27,3 +31,8 @@ a{
     padding-top: 450px;
     margin-left: 50px;
 }
+
+.sport{
+    background-color: rgba(36, 39, 46, 1);
+}
+
