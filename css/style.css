@@ -1,3 +1,7 @@
+*{
+margin: 0 auto;
+}
+
 h1{
     color: rgba(246, 191, 0, 1) ;
     font-family: 'Anek Tamil', sans-serif;
@@ -6,6 +10,10 @@ h1{
     line-height: 1.1;
     margin-left: 50px;
     padding-top: 120px;
+}
+
+i{
+    color: rgba(246, 191, 0, 1) ;
 }
 
 p{
@@ -34,5 +42,49 @@ a{
 
 .sport{
     background-color: rgba(36, 39, 46, 1);
+}
+
+.boxe{
+    width: 200px;
+    height: 500px;
+}
+
+.tarifs{
+    background-color: rgba(26, 27, 32, 1);
+}
+
+.tarif{
+    width: 200px;
+    height: 200px;
+}
+
+.middle-tarif{
+    width: 200px;
+    height: 200px;
+}
+
+.service{
+    background-color: rgba(36, 39, 46, 1);
+}
+
+
+.review{
+    background-color: rgba(26, 27, 32, 1);
+}
+
+.comment{
+    background-color: rgba(36, 39, 46, 1);
+}
+
+.partenaire{
+    background-color: black;
+}
+
+.about{
+    background-image: url(./../img/disque.jpg);
+}
+
+.copiright{
+    background-color: black;
 }
 
