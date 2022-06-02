@@ -46,8 +46,69 @@ a{
 
 .boxe{
     width: 200px;
-    height: 500px;
+    height: 450px;
+    border: solid 4px rgba(246, 191, 0, 1);
+    border-radius: 5%;
+    background-color: black;
 }
+
+.boxe-img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.pool{
+    width: 200px;
+    height: 550px;
+    border: solid 4px rgba(26, 27, 32, 1);
+    border-radius: 5%;
+    background-color: black;
+}
+
+.pool-img{
+    margin: 0;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+
+.basket{
+    width: 200px;
+    height: 450px;
+    border: solid 4px rgba(246, 191, 0, 1);
+    border-radius: 5%;
+    background-color: black;
+}
+
+.basket-img{
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+
+.sport-txt{
+    line-height: 2.0;
+}
+
+.pool-txt{
+    line-height: 2.4;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    left: 120px;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+}
+
 
 .tarifs{
     background-color: rgba(26, 27, 32, 1);
@@ -55,16 +116,56 @@ a{
 
 .tarif{
     width: 200px;
-    height: 200px;
+    height: 250px;
+    border: solid 4px rgba(36, 39, 46, 1);
+    border-radius: 5%;
+}
+
+.tarif-txt{
+    line-height: 2.4;
+}
+
+.heading{
+    background-color: rgba(36, 39, 46, 1);
 }
 
 .middle-tarif{
     width: 200px;
-    height: 200px;
+    height: 250px;
+    border: solid 4px rgba(246, 191, 0, 1);
+    border-radius: 5%;
+}
+
+.middle-heading{
+    background-color:rgba(246, 191, 0, 1);
 }
 
 .service{
     background-color: rgba(36, 39, 46, 1);
+}
+
+.dumbbell-img{
+    width: 80px;
+    height: 80px;
+}
+
+.scale-img{
+    width: 80px;
+    height: 80px;
+}
+
+.massage-img{
+    width: 80px;
+    height: 80px;
+}
+
+.img-fluid{
+    
+}
+
+.prenom{
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -82,6 +183,14 @@ a{
 
 .about{
     background-image: url(./../img/disque.jpg);
+}
+
+.social-media{
+    padding-left: 40px;
+}
+
+.contact{
+    background-color: black;
 }
 
 .copiright{
