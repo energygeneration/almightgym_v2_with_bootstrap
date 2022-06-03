@@ -12,7 +12,11 @@ h1{
     padding-top: 120px;
 }
 
-i{
+h3{
+    text-decoration: underline;
+}
+
+i, a, .home h2{
     color: rgba(246, 191, 0, 1) ;
 }
 
@@ -20,9 +24,6 @@ p{
     color: white;
 }
 
-a{
-    color: rgba(246, 191, 0, 1) ;
-}
 
 .navbar{
     background-color: black;
@@ -35,7 +36,6 @@ a{
 }
 
 .home h2{
-    color:rgba(246, 191, 0, 1) ; 
     padding-top: 450px;
     margin-left: 50px;
 }
@@ -46,7 +46,7 @@ a{
 
 .boxe{
     width: 200px;
-    height: 450px;
+    height: 480px;
     border: solid 4px rgba(246, 191, 0, 1);
     border-radius: 5%;
     background-color: black;
@@ -73,7 +73,7 @@ a{
 
 .basket{
     width: 200px;
-    height: 450px;
+    height: 480px;
     border: solid 4px rgba(246, 191, 0, 1);
     border-radius: 5%;
     background-color: black;
@@ -92,21 +92,31 @@ a{
     line-height: 2.4;
 }
 
-.btn{
+.btn-boxe{
     width: 150px;
     height: 40px;
     font-size: 18px;
     position: relative;
     left: 120px;
+    top: 30px;
 }
 
-.button{
+.btn-pool{
     width: 150px;
     height: 40px;
     font-size: 18px;
     position: relative;
     left: 120px;
-    bottom: 20px;
+    top: 35px;
+}
+
+.btn-basket{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    left: 120px;
+    bottom: 3px;
 }
 
 
@@ -115,7 +125,7 @@ a{
 }
 
 .tarif{
-    width: 200px;
+    width: 10%;
     height: 250px;
     border: solid 4px rgba(36, 39, 46, 1);
     border-radius: 5%;
@@ -127,6 +137,10 @@ a{
 
 .heading{
     background-color: rgba(36, 39, 46, 1);
+}
+
+.heading h3, .middle-heading h3{
+    text-decoration: none;
 }
 
 .middle-tarif{
@@ -144,30 +158,41 @@ a{
     background-color: rgba(36, 39, 46, 1);
 }
 
-.dumbbell-img{
+.dumbbell-img, .scale-img, .massage-img{
     width: 80px;
     height: 80px;
 }
 
-.scale-img{
-    width: 80px;
-    height: 80px;
+
+.salle-img, .althere-img{
+    width: 100%;
 }
 
-.massage-img{
-    width: 80px;
-    height: 80px;
+.formulaire{
+    margin-left: 170px;
 }
 
-.img-fluid{
-    
-}
-
-.prenom{
-    width: 50px;
+.frm{
+    color: rgb(130, 130, 133);
+    width: 173px;
     height: 50px;
+    border: none;
+    border-radius: 5%;
+    background-color:rgb(20, 20, 24); 
 }
 
+.exp{
+    width: 400px;
+    color: rgb(130, 130, 133);
+    border: none;
+    border-radius: 5%;
+    background-color:rgb(20, 20, 24);   
+    margin-left: 26px;
+}
+
+.sub{
+  margin-left: 500px;
+}
 
 .review{
     background-color: rgba(26, 27, 32, 1);
@@ -177,23 +202,27 @@ a{
     background-color: rgba(36, 39, 46, 1);
 }
 
-.partenaire{
-    background-color: black;
-}
-
 .about{
     background-image: url(./../img/disque.jpg);
 }
 
+.adiddas-txt, .nike-txt{
+    margin-top: 30px;
+}
+
+
 .social-media{
     padding-left: 40px;
+    padding-top: 40px;
 }
 
-.contact{
+.maps{
+    width: 100%;
+}
+
+.contact, .partenaire, .copyright{
     background-color: black;
 }
 
-.copiright{
-    background-color: black;
-}
+
 
