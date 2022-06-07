@@ -16,6 +16,11 @@ h3{
     text-decoration: underline;
 }
 
+h2{
+    padding-top: 450px;
+    margin-left: 50px;
+}
+
 i, a, .home h2{
     color: rgba(246, 191, 0, 1) ;
 }
@@ -33,11 +38,6 @@ p{
     background-image:url(./../img/home.jpg);
     width: 100%;
     height: 150vh;
-}
-
-.home h2{
-    padding-top: 450px;
-    margin-left: 50px;
 }
 
 .sport{
@@ -172,6 +172,10 @@ p{
     margin-left: 170px;
 }
 
+.formulaire-top, .formulair-bottom{
+    margin-top: 15px;
+}
+
 .frm{
     color: rgb(130, 130, 133);
     width: 173px;
@@ -224,5 +228,88 @@ p{
     background-color: black;
 }
 
+@media screen and (max-width:320px) {
+    h1{
+        font-size: 30px;
+        line-height: 1.1;
+        margin-left: 20px;
+        padding-top: 80px; 
+    }
 
+    h2{
+        font-size: 20px;
+        padding-top: 120px;
+        margin-left: 10px;
+    }
+
+    p{
+        line-height: 1.2;
+    }
+
+    .pool{
+        margin-top: 20px;
+    }
+
+    .btn-boxe{
+        font-size: 18px;
+        position: relative;
+        left: 60px;
+        top: 20px;
+    }
+    
+    .btn-pool{
+        font-size: 18px;
+        position: relative;
+        left: 60px;
+        top: 10px;
+    }
+    
+    .btn-basket{
+        font-size: 18px;
+        position: relative;
+        left: 60px;
+        top: 20px;
+    }
+
+    .middle-tarif{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .formulaire{
+        margin-left: 10px;
+    }
+
+    .formulaire-top, .formulair-bottom{
+        margin-top: 5px;
+    }
+
+    .exp{
+        width: 173px;
+        height: 70px;
+        color: rgb(130, 130, 133); 
+        margin-left: 26px;
+    }
+    
+    .sub{
+        margin-left: 80px;
+    }
+
+    .salle-img{
+        width: 0;
+    }
+
+    .althere-img{
+        width: 0;
+    }
+
+    .comment{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .partenaire p{
+        margin-left: 50px;
+    }
+}
 
