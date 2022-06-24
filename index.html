@@ -65,11 +65,11 @@
 
   <div class="container-fluid sport" id="sports">
 
-    <div class="mx-auto pt-5" style="width: 800px;">
+    <div class="mx-auto pt-5">
 
       <h3 class="text-center text-white mb-4">Sports</h3>
 
-      <p class="text-center py-3">
+      <p class="text-center my-3">
         Nos exercices sportifs vous permettent de développer votre corps, développer vos capacités de
         concentrations, faciliter la circulation du sang, aiguiser votre sens du reflexe et maintenir votre
         corps en parfaite santé.
@@ -77,11 +77,11 @@
 
     </div>
 
-    <div class="d-flex justify-content-around  row pb-5 ">
+    <div class=" row pb-5 ">
 
-      <div class="col p-0 mx-4 mt-4 boxe">
+      <div class="mt-4 boxe">
 
-        <img src="./img/gloves.jpg" class="img-fluid boxe-img" alt="...">
+        <img src="./img/gloves.jpg" class="boxe-img" alt="...">
 
         <p class="my-3 text-center sport-txt">
           Avec une pratique
@@ -100,9 +100,9 @@
 
       </div>
 
-      <div class="col mx-4 p-0 pool">
+      <div class="  pool">
 
-        <img src="./img/pool.jpg" class="img-fluid pool-img" alt="...">
+        <img src="./img/pool.jpg" class="pool-img" alt="...">
 
         <p class="mt-3 text-center pool-txt">
           La natation permet de
@@ -122,9 +122,9 @@
 
       </div>
 
-      <div class="col mt-4 mx-4 p-0 basket">
+      <div class="mt-4  basket">
 
-        <img src="./img/basketball.jpg" class="img-fluid basket-img" alt="...">
+        <img src="./img/basketball.jpg" class="basket-img" alt="...">
 
         <p class="my-3 text-center sport-txt">
           Pratiquer du basket-ball
@@ -152,7 +152,7 @@
 
     <div class="row d-flex justify-content-around float-sm-start">
 
-      <div class="col px-0 mx-5 tarif ">
+      <div class="tarif ">
 
         <div class="heading mt-4">
 
@@ -168,7 +168,7 @@
 
       </div>
 
-      <div class="col p-0 mx-5 middle-tarif ">
+      <div class="middle-tarif ">
 
         <div class="middle-heading mt-4">
 
@@ -185,7 +185,7 @@
 
       </div>
 
-      <div class="col p-0 mx-5 tarif ">
+      <div class="tarif ">
 
         <div class="heading  mt-4 me-4 ">
 
@@ -207,13 +207,13 @@
 
   <div class="container-fluid m-0 p-0 service" id="services">
 
-    <div class="d-flex flex-column ">
+    
 
-      <div class="m-0 p-0">
+      
 
-        <div class="row">
+        <div class="container-fluid row p-0 m-0">
 
-          <div class="col p-0">
+          <div class="p-0">
 
             <h3 class="text-center text-white my-4">Nos services</h3>
 
@@ -272,67 +272,70 @@
             </div>
           </div>
          
-          <div class="col img-fluid p-0">
-            <img class="salle-img p-0" src="./img/salle.jpg" alt="">
-          </div>
+          
+          <img class="salle-img img-fluid w-50 m-0" src="./img/salle.jpg" alt="">
+          
 
         </div>
 
-      </div>
+      
 
-      <div class="m-0 p-0">
-
-        <div class="row">
-
-          <div class="col img-fluid p-0">
-            <img class="althere-img" src="./img/althère-img.jpg" alt="">
-          </div>
-
-          <div class="col p-0">
-
-            <h3 class="text-center text-white text-decoration-underline my-4">Inscription</h3>
-
-           
-            <form method="post" action="v-stone.php" class="formulaire">
-
-              <div class="formular-top">
-                <label for="prenom"><input type="text" name="Prénom" id="prenom" value="Prénom" class="mx-4 frm"></label>
-                <label for="nom"> <input type="text" name="Nom" id="nom" value="Nom" class="mx-4 frm"></label>
-              </div>
-
-              <div class="formular-bottom">
-
-                <label for="email"><input type="text" name="Email" id="email" value="Email" class="mx-4 frm"></label>
-                <label for="programmes">
-
-                  <select name="programmes" id="programmes" class="mx-4 frm">
-                    <option value="tous les programmes">Tous les programmes</option>
-                    <option value="boxe">Boxe</option>
-                    <option value="natation">Natation</option>
-                    <option value="basket">Basket</option>
-                    <option value="musculation">Musculation</option>
-                    <option value="perte de poids">Perte de poids</option>
-                    <option value="spéciaux">Spéciaux</option>
-                  </select>
-
-                </label> 
-
-              </div>
-
-               <label for="experiences"><textarea name="Expériences" id="experiences" class="ms-5 exp" cols="30"
-                  rows="4">comment pouvons nous vous aider?
-              </textarea></label>
-
-            </form>
-
-            <button type="button" class="btn btn-warning button sub"><strong>ENVOYER</strong></button>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
+    
   </div>
+
+  <div class="d-flex flex-column float-sm-start form">
+    
+
+      <div class="row container-fluid p-0 m-0">
+  
+        
+        <img class="althere-img img-fluid m-0 w-50" src="./img/althère-img.jpg" alt="">
+        
+  
+        <div class="p-0 m-0">
+  
+          <h3 class="text-center text-white text-decoration-underline my-4">Inscription</h3>
+  
+         
+          <form method="post" action="v-stone.php" class="formulaire">
+  
+            <div class=" m-0 formular-top">
+              <label for="prenom"><input type="text" name="Prénom" id="prenom" value="Prénom" class="mx-4 frm"></label>
+              <label for="nom"> <input type="text" name="Nom" id="nom" value="Nom" class="mx-4 frm"></label>
+            </div>
+  
+            <div class="m-0 formular-bottom">
+  
+              <label for="email"><input type="text" name="Email" id="email" value="Email" class="mx-4 frm"></label>
+              <label for="programmes">
+  
+                <select name="programmes" id="programmes" class="mx-4 frm">
+                  <option value="tous les programmes">Tous les programmes</option>
+                  <option value="boxe">Boxe</option>
+                  <option value="natation">Natation</option>
+                  <option value="basket">Basket</option>
+                  <option value="musculation">Musculation</option>
+                  <option value="perte de poids">Perte de poids</option>
+                  <option value="spéciaux">Spéciaux</option>
+                </select>
+  
+              </label> 
+  
+            </div>
+  
+             <label for="experiences"><textarea name="Expériences" id="experiences" class="ms-5 exp" cols="30"
+                rows="4">comment pouvons nous vous aider?
+            </textarea></label>
+  
+          </form>
+  
+          <button type="button" class="btn btn-warning button sub"><strong>ENVOYER</strong></button>
+  
+        </div>
+      </div>
+    
+  </div>
+ 
 
   <div class="container-fluid review py-4" id="reviews">
 
@@ -340,7 +343,7 @@
 
     <div class="row mb-4 d-flex justify-content-around">
 
-      <div class="col comment d-flex justify-content-evenly mx-3">
+      <div class="comment d-flex justify-content-evenly mx-3">
 
         <p class="mx-3 mt-2">
           Darelle Williams <br>
@@ -358,11 +361,11 @@
           <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill "></i> <i class="bi bi-star-half "></i>
         </p>
 
-        <img src="./img/darelle.jpg" alt="">
+        <img src="./img/darelle.jpg" class="darelle-img" alt="">
 
       </div>
 
-      <div class="col comment d-flex justify-content-evenly mx-3">
+      <div class="comment d-flex justify-content-evenly mx-3">
 
         <p class="mx-3 mt-2">
           Carla Jhonson <br>
@@ -380,11 +383,11 @@
           <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill "></i> <i class="bi bi-star-half "></i>
         </p>
 
-        <img  src="./img/carla.jpg" class="float-sm-start" alt="">
+        <img  src="./img/carla.jpg" class="carla-img" alt="">
 
       </div>
 
-      <div class="col comment d-flex justify-content-evenly mx-3">
+      <div class="comment d-flex justify-content-evenly mx-3">
 
         <p class="mx-3 mt-2">
           Frank Mboko <br>
@@ -402,7 +405,7 @@
           <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill "></i> <i class="bi bi-star-half "></i>
         </p>
 
-        <img src="./img/frank.jpg" class="float-sm-start" alt="">
+        <img src="./img/frank.jpg" class="frank-img" alt="">
 
       </div>
 
@@ -416,9 +419,9 @@
 
     <div class="row">
 
-      <div class="col row">
+      <div class="d-flex justify-content-around">
 
-        <img src="./img/adidas.jpg" alt="">
+        <img class="adiddas" src="./img/adidas.jpg" alt="">
 
         <p class="pt-5 adiddas-txt">
           Notre authenticité nous rend unique, <br>
@@ -429,9 +432,9 @@
 
       </div>
 
-      <div class="m-0 col row">
+      <div class="d-flex justify-content-around">
 
-        <img src="./img/nike.jpg" alt="">
+        <img class="nike" src="./img/nike.jpg" alt="">
 
         <p class="pt-5 nike-txt">
           Ils nous ont fait confiance pour la qualité <br>
@@ -462,19 +465,19 @@
   </div>
 
 
-  <div class="container-fluid row p-0 m-0 contact" id="contact">
+  <div class="container-fluid d-flex float-sm-start row p-0 m-0 contact" id="contact">
 
-    <div class="col maps ">
+    
 
-      <iframe class="maps" title="almightgym"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.9777871238985!2d1.2121949142959882!3d6.133686729274912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e1e1b53649e7%3A0x846d599100b63fc8!2sRue%20des%20Cocotiers%2C%20Lom%C3%A9!5e0!3m2!1sfr!2stg!4v1652290305947!5m2!1sfr!2stg"
-         height="300" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+    <iframe class="maps" title="almightgym"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.9777871238985!2d1.2121949142959882!3d6.133686729274912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e1e1b53649e7%3A0x846d599100b63fc8!2sRue%20des%20Cocotiers%2C%20Lom%C3%A9!5e0!3m2!1sfr!2stg!4v1652290305947!5m2!1sfr!2stg"
+      height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
 
-    </div>
+  
 
-    <div class="col d-flex justify-content-around mt-5 ctc">
+    <div class="d-flex justify-content-around w-50 mt-5 ctc">
       
       <div class="information">
 
